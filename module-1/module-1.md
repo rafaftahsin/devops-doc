@@ -1,6 +1,6 @@
 ---
-title: Module 1
+title: 'Module 1'
 layout: home
 ---
 
-Module 1
+## Introduction to DevOps
