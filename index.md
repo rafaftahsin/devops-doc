@@ -28,7 +28,7 @@ The course is distributed in the following modules
 | Module 5  | Logging and Monitoring                            |
 | Module 6  | IaC with Terraform                                |
 | Module 7  | Load Balancing & 3 Layer Architecture             |
-| Module 8  | Containerization & Microservice Architecture      |
+| Module 8  | Containerization with Docker                      |
 | Module 9  | Introduction to Kubernetes Cluster                |
 | Module 10 | CI/CD, Monitoring & Scaling on Kubernetes Cluster |
 | Module 11 | Deep Dive into Cloud                              |
