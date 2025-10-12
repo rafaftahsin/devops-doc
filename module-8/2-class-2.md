@@ -130,3 +130,12 @@ With docker image being built, let's run it
 ```
 docker run --network=host rafaftahsin/devops-demo-backend:v4
 ```
+
+# docker run with env file 
+
+# change host network 
+
+
+# docker compose 
+
+# Multi stage docker build 
