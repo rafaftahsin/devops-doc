@@ -22,8 +22,6 @@ Run the following command. Make sure you ran the command from your repository ba
 docker run -it -v $(pwd):/app --network=host ubuntu
 ```
 
-Now, those who didn't give much attention to the last class, মুড়ি খান ... ভাতের উপর চাপ কমান ... google yourself and discover WTH is `-v` and `-p` is or go over the last class video.
-
 Ok. After we run above command, our terminal will be attached to container's terminal. We have our repository linked at `/app` location inside the container and we also have exposed container's 8080 port and mapped the port to host's 8080 port.
 
 ### Step 2 : Install dependencies
