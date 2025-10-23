@@ -138,6 +138,4 @@ docker run --network=host rafaftahsin/devops-demo-backend:v4
 
 ```
 
-
-
 # Multi stage docker build 
