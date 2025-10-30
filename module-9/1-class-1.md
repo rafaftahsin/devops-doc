@@ -235,17 +235,20 @@ rt@bp:~$ kubectl logs -f pod/nginx -n ostad
 Ok. The pod is running. It has got uniq ip. But it's inside the cluster. There's kubectl command that we can use to make a bridge between our local machine to the pod using `kubectl port-forwarding`. 
 
 ```shell
-kubectl port-forward pod/nginx 8080:80
+kubectl port-forward pod/nginx 8080:80 -n ostad
 ```
-
 
 ### Deployment
 
 deployment: We don't just run pods right? Sometimes we need to scale it up, scale it down, update it, downgrade it, allocate resource on it etc. `deployment` does the task. A Deployment provides declarative updates for Pods and ReplicaSets.
 
+Before 
+
 ```shell
-kubectl create deployment nginx 
+kubectl create deployment nginx --
 ```
+
+
 
 ### Replica Set
 
@@ -271,20 +274,6 @@ apiserver: Running
 kubeconfig: Configured
 ```
 
-kubectl get pods 
-kubectl describe pods ... 
-kubectl logs -f pod/nginx .. 
-
-
-
-
-
-
-
-
-
-
-
 
 ### Servcie 
 
@@ -303,6 +292,9 @@ kubectl expose deployment/nginx --port=8080 --target-port=80
 
 We will see, a service is now created to expose port 80. 
 
+https://kubernetes.io/docs/reference/kubectl/generated/kubectl_expose/ 
+
+
 ```shell
 kubectl get all
 ```
@@ -311,8 +303,10 @@ There are 4 types of services in kubernetes
 
 1. ClusterIP: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default that is used if you don't explicitly specify a type for a Service. You can expose the Service to the public internet using an Ingress or a Gateway.
 2. NodePort: Exposes the Service on each Node's IP at a static port (the NodePort). To make the node port available, Kubernetes sets up a cluster IP address, the same as if you had requested a Service of type: ClusterIP.
-3.  the Service externally using an external load balancer. Kubernetes does not directly offer a load balancing component; you must provide one, or you can integrate your Kubernetes cluster with a cloud provider.
-4. ExLoadBalancer: ExposesternalName: Maps the Service to the contents of the externalName field (for example, to the hostname api.foo.bar.example). The mapping configures your cluster's DNS server to return a CNAME record with that external hostname value. No proxying of any kind is set up.
+3. LoadBalancer:  the Service externally using an external load balancer. Kubernetes does not directly offer a load balancing component; you must provide one, or you can integrate your Kubernetes cluster with a cloud provider.
+4. ExternalName: Maps the Service to the contents of the externalName field (for example, to the hostname api.foo.bar.example). The mapping configures your cluster's DNS server to return a CNAME record with that external hostname value. No proxying of any kind is set up.
+
+- https://kubernetes.io/docs/reference/kubectl/generated/kubectl_create/kubectl_create_service_externalname/
 
 ### ReplicaSet 
 
@@ -329,6 +323,6 @@ https://stackoverflow.com/questions/69448131/kubernetes-whats-the-difference-bet
 
 ### Ingress: 
 
-
+https://kubernetes.io/docs/concepts/services-networking/ingress/
 
 
