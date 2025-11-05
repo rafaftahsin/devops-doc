@@ -1,6 +1,6 @@
 ---
 title: Assignment
-parent: Module 1
+parent: 'Module 5 deploy'
 layout: page
 nav_order: 3
 ---

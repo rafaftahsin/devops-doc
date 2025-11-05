@@ -1,5 +1,5 @@
 ---
-title: 'Module 1'
+title: 'Module 1 intro'
 layout: home
 ---
 
