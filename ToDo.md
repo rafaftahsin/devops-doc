@@ -1,5 +1,6 @@
 ---
 title: ToDo
+nav_exclude: true
 ---
 
 - [ ] blog on how to install eks-cluster with eksctl
