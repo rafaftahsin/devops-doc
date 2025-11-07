@@ -20,22 +20,22 @@ Now that you are onboarded, let's review the course content.
 
 The course is distributed in the following modules
 
-| Modules   | Topic        |
-|-----------|--------------|
-| Module 1  | Introduction |
-| Module 2  | Git          |
-| Module 3  | Linux-1      |
-| Module 4  | Linux-2      |
-| Module 5  | Deploy       |
-| Module 6  | CI/CD        |
-| Module 7  | Monitoring   |
-| Module 8  | IaC          |
-| Module 9  | Scaling      |
-| Module 10 | Docker-1     |
-| Module 11 | Docker-2     |
-| Module 12 | Kubernetes-1 |
-| Module 13 | Kubernetes-2 |
-| Module 14 | Kubernetes-3 |
-| Module 15 | Cloud        |
-| Module 16 | Security     |
-| Module 17 | Project      |
+| Modules   | Topic                                          |
+|-----------|------------------------------------------------|
+| Module 1  | Introduction                                   |
+| Module 2  | Version Control with Git                       |
+| Module 3  | Basic Cloud & Linux                            |
+| Module 4  | More on Linux                                  |
+| Module 5  | Deploy                                         |
+| Module 6  | Continuous Integration / Continuous Deployment |
+| Module 7  | Monitoring                                     |
+| Module 8  | Infrastructure as Code                         |
+| Module 9  | Scaling & 3 Layer Architecture                 |
+| Module 10 | Docker-1                                       |
+| Module 11 | Docker-2                                       |
+| Module 12 | Kubernetes-1                                   |
+| Module 13 | Kubernetes-2                                   |
+| Module 14 | Kubernetes-3                                   |
+| Module 15 | Cloud                                          |
+| Module 16 | Security                                       |
+| Module 17 | Project                                        |
