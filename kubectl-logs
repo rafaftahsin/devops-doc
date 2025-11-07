@@ -1,0 +1,111 @@
+1199  kubectl get pod -n ostad
+ 1200  kubectl logs -f nginx-66686b6766-hkst9 -n ostad
+ 1201  kubectl get all -n ostad
+ 1202  kubectl delete deployment/nginx -n ostad
+ 1203  kubectl get all -n ostad
+ 1204  kubectl delete namespace ostad
+ 1205  kubectl get namespace 
+ 1206  kubectl describe namespace default 
+ 1207  kubectl get IPAddressPool -n default 
+ 1208  exit
+ 1209  kubectl logs -f nginx-66686b6766-ntnlk -n ostad
+ 1210  kubectl logs -f pod/qna-7bddc66c6d-477dl -n default 
+ 1211  traceroute 8.8.8.8
+ 1212  sudo apt install traceroute 
+ 1213  traceroute 8.8.8.8
+ 1214  ifconfig 
+ 1215  exit
+ 1216  curl localhost:8000
+ 1217  exit
+ 1218  curl localhost:8080
+ 1219  curl localhost:8000
+ 1220  exit
+ 1221  kubectl get pod -n default 
+ 1222  kubectl logs -f qna-7bddc66c6d-k7srs -n default 
+ 1223  exit
+ 1224  minikube --help 
+ 1225  minikube status 
+ 1226  cat .kube/config 
+ 1227  minikube status
+ 1228  minikube stop 
+ 1229  minikube status
+ 1230  minikube start 
+ 1231  kubectl get namespace 
+ 1232  kubectl get all -n default 
+ 1233  kubectl get all -n kube-node-lease
+ 1234  kubectl get all -n kube-public
+ 1235  kubectl get all -n kube-system
+ 1236  kubectl get all -n kubernetes-dashboard
+ 1237  kubectl create namespace 
+ 1238  kubectl create namespace --help 
+ 1239  kubectl create namespace ostad
+ 1240  kubectl get namespace 
+ 1241  kubectl run nginx --image=nginx -n ostad
+ 1242  kubectl get pods -n ostad
+ 1243  kubectl describe pod/nginx -n ostad
+ 1244  kubectl logs -f pod/nginx -n ostad
+ 1245  kubectl get all -n ostad 
+ 1246  kubectl describe pod/nginx -n ostad
+ 1247  kubectl port-forward pod/nginx -n ostad 
+ 1248  kubectl port-forward pod/nginx 8080:80 -n ostad 
+ 1249  kubectl logs -f pod/nginx -n ostad
+ 1250  kubectl get pod -n ostad
+ 1251  kubectl get all -n ostad
+ 1252  kubectl delete pod/nginx -n ostad
+ 1253  kubectl get all -n ostad
+ 1254  kubectl get all -n default 
+ 1255  kubectl get all -n ostad
+ 1256  kubectl create deployment nginx --image=nginx -n ostad 
+ 1257  kubectl get all -n ostad
+ 1258  kubectl port-forward deployment.apps/nginx 8080:80 -n ostad
+ 1259  kubectl scale deployments/nginx --replicas=3
+ 1260  kubectl scale deployments/nginx --replicas=3 -n ostad
+ 1261  kubectl get all -n ostad
+ 1262  kubectl port-forward deployment.apps/nginx 8080:80 -n ostad
+ 1263  kubectl logs -f pod/nginx-66686b6766-hkst9 -n ostad 
+ 1264  kubectl scale deployments/nginx --replicas=1 -n ostad
+ 1265  kubectl port-forward deployment.apps/nginx 8080:80 -n ostad
+ 1266  exit
+ 1267  kubectl get all -n ostad
+ 1268  kubectl logs -f pod/nginx-66686b6766-hkst9 -n ostad
+ 1269  kubectl scale deployments/nginx --replicas=2 -n ostad
+ 1270  kubectl get all -n ostad
+ 1271  kubectl create deployment qna --image=nginx -n default 
+ 1272  kubectl scale deployment/qna --replicas=2 -n default 
+ 1273  kubectl get all -n defalt 
+ 1274  kubectl get all -n default 
+ 1275  kubectl port-forward deployment/qna 8080:80 -n default 
+ 1276  kubectl port-forward deployment/qna 8000:80 -n default 
+ 1277  history
+ 1278  history 
+ 1279  exit
+ 1280  minikube start 
+ 1281  kubectl get pods 
+ 1282  cat ~/.kube/config 
+ 1283  minikube dashboard
+ 1284  kubectl get namespaces
+ 1285  kubectl get all -n default
+ 1286  kubectl get all
+ 1287  kubectl get all kube-node-lease
+ 1288  kubectl get all -n kube-node-lease
+ 1289  kubectl get all -n kube-public
+ 1290  kubectl get all -n kube-system
+ 1291  kubectl run nginx --image=nginx
+ 1292  kubectl get all 
+ 1293  kubectl get all
+ 1294  kubectl get all 
+ 1295  kubectl describe pod/nginx
+ 1296  kubectl describe pod nginx 
+ 1297  kubectl get pods -n default 
+ 1298  kubectl delete pod nginx 
+ 1299  kubectl get all
+ 1300  kubectl run nginx --image=nginx
+ 1301  kubectl run nginx --image=nginx --expose --port 80
+ 1302  kubectl delete pod nginx 
+ 1303  kubectl run nginx --image=nginx --expose --port 80
+ 1304  kubectl get all
+ 1305  minikube service nginx --url 
+ 1306  kubectl delete pod nginx 
+ 1307  kubectl run nginx --image=nginx
+ 1308  kubectl port-forward pod/nginx 8080:80
+
