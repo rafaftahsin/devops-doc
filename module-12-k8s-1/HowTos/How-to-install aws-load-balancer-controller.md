@@ -2,7 +2,14 @@
 title: How to install aws-load-balancer-controller
 ---
 
+
 ```shell
+# open ID connector
+eksctl utils associate-iam-oidc-provider \
+    --region ap-southeast-1 \
+    --cluster confused-blues-mongoose \
+    --approve
+
 # create IAM policy
 curl -o iam-policy.json https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.14.1/docs/install/iam_policy.json
 aws iam create-policy \
@@ -28,7 +35,6 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
     --set serviceAccount.name=aws-load-balancer-controller \
     --set region=<region-code> \
     --set vpcId=<vpc-id>
-
 ```
 
 Ref: 
