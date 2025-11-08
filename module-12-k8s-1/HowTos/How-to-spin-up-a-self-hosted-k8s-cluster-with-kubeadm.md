@@ -55,6 +55,7 @@ Ref:
 
 1. https://github.com/containerd/containerd/blob/main/docs/getting-started.md
 2. https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd
+3. container systemd config update -> https://github.com/containerd/containerd/discussions/5413
 
 
 ### Installing `kubeadm`, `kubelet` and `kubectl` 
