@@ -10,6 +10,17 @@ title: "How to spin up a self-hosted k8s cluster with kubeadm"
 - Port 6443 should be open
   - Check with `sudo netstat -tulpn | grep 6443`
   - Open with `sudo ufw allow 6443` if using ufw.
+- Enable IPv4 Packet forwarding
+  - Check with `sudo sysctl net.ipv4.ip_forward`
+  - Enable with 
+```shell
+cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
+net.ipv4.ip_forward = 1
+EOF
+
+# Apply sysctl params without reboot
+sudo sysctl --system
+```
 
 ### Install container runtime
 
@@ -22,6 +33,7 @@ sudo tar Cxzvf /usr/local containerd-2.2.0-linux-amd64.tar.gz
 wget https://raw.githubusercontent.com/containerd/containerd/main/containerd.service
 sudo mkdir -p /usr/local/lib/systemd/system
 sudo mv containerd.service /usr/local/lib/systemd/system/containerd.service
+containerd config default > /etc/containerd/config.toml
 sudo systemctl daemon-reload
 sudo systemctl enable containerd
 sudo systemctl start containerd
