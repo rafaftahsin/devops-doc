@@ -1,5 +1,8 @@
 ---
 title: How to connect to EKS cluster
+parent:  'HowTos'
+layout: home
+grand_parent: 'Module 12 k8s-1'
 ---
 
 ### Connect to cluster

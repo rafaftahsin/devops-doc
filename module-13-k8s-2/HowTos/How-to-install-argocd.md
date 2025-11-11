@@ -1,5 +1,8 @@
 ---
 title: How to install ArgoCD
+layout: home
+parent: 'HowTos'
+grand_parent: 'Module 13 k8s-2'
 ---
 
 ### How to install argocd
