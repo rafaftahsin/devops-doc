@@ -8,7 +8,8 @@ This repository uses jekyll and just-the-docs theme. It was forked from [a very 
 ### How to build 
 
 ```shell
-gem install
+gem install bundler
+bundle install
 ```
 
 ### How to run
