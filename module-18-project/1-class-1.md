@@ -1,6 +1,6 @@
 ---
 title: Class 1
-parent: 'Module 17 project'
+parent: 'Module 18 project'
 layout: page
 nav_order: 1
 ---

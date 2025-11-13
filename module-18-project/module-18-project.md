@@ -1,5 +1,5 @@
 ---
-title: 'Module 17 project'
+title: 'Module 18 project'
 layout: home
 nav_order: 17
 ---
