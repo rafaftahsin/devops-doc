@@ -1,6 +1,6 @@
 ---
 title: Assignment
-parent: 'Module 10 Network'
+parent: 'Module 10 network'
 layout: page
 nav_order: 3
 ---
