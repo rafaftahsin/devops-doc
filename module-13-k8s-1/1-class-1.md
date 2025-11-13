@@ -1,6 +1,6 @@
 ---
 title: Class 1
-parent: 'Module 12 k8s-1'
+parent: 'Module 13 k8s-1'
 layout: page
 nav_order: 1
 ---
