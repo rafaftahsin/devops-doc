@@ -1,6 +1,6 @@
 ---
 title: Class 2
-parent: 'Module 10 docker-1'
+parent: 'Module 11 docker-1'
 layout: page
 nav_order: 2
 ---
