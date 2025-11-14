@@ -2,7 +2,7 @@
 title: "How to spin up a self-hosted k8s cluster with kubeadm"
 parent:  'HowTos'
 layout: home
-grand_parent: 'Module 12 k8s-1'
+grand_parent: 'Module 13 k8s-1'
 ---
 
 ### Prerequisites

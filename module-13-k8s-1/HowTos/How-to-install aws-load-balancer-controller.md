@@ -2,7 +2,7 @@
 title: How to install aws-load-balancer-controller
 parent:  'HowTos'
 layout: home
-grand_parent: 'Module 12 k8s-1'
+grand_parent: 'Module 13 k8s-1'
 ---
 
 
