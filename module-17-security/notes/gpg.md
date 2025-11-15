@@ -1,7 +1,7 @@
 ---
 title: GPG
 parent: notes
-grant_parent: 'Module 17 security'
+grand_parent: 'Module 17 security'
 layout: page
 ---
 

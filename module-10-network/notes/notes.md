@@ -1,8 +1,6 @@
 ---
-title: Class 1
+title: notes
 parent: 'Module 10 network'
 layout: page
-nav_order: 1
+nav_order: 6
 ---
-
-
