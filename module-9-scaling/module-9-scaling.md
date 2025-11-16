@@ -39,3 +39,7 @@ nav_order: 9
 তারপর আমরা ফ্রন্ট এন্ড স্টাটিক এপ্লিকেশনকে ডেপ্লয় করব S3 এর মাধ্যমে ... আর দেখব কিভাবে ক্লাউড ফ্রন্ট এর CDN এর মাধ্যমে Static Site গুলাকে ক্যাশিং এর মাধ্যমে আর দ্রুত ইউজার এর কাছে পৌছে দেওয়া যায় ... 
 
 
+# Further Advanced topic that we won't cover 
+
+- Auto Scaling
+- কিভাবে Auto Scaled Application এর ডেপ্লয়মেন্ট অটোমেট করা যায়

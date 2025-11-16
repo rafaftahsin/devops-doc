@@ -1,6 +1,6 @@
 ---
 title: Class 1
-parent: 'Module 6 monitoring'
+parent: 'Module 6 CI/CD'
 layout: page
 nav_order: 1
 ---

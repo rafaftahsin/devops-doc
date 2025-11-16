@@ -1,0 +1,7 @@
+---
+title: notes
+parent: 'Module 6 CI/CD'
+layout: page
+nav_order: 7
+---
+
