@@ -1,6 +1,6 @@
 ---
 title: How to connect to EKS cluster
-parent:  'HowTos'
+parent: 'notes'
 layout: home
 grand_parent: 'Module 13 k8s-1'
 ---

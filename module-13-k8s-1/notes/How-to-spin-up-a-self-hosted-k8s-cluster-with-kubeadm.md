@@ -1,6 +1,6 @@
 ---
 title: "How to spin up a self-hosted k8s cluster with kubeadm"
-parent:  'HowTos'
+parent: 'notes'
 layout: home
 grand_parent: 'Module 13 k8s-1'
 ---
