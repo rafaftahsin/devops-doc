@@ -1,5 +1,5 @@
 ---
-title: HowTos
+title: notes
 parent: 'Module 14 k8s-2'
 layout: home
 ---
